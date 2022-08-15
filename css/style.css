@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+html{
+    font-size: 1rem;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: min(1400px, 100%);
+    margin: 0 auto;
+}
+.level-one{
+    width: 100%;
+    min-height: auto;
+    margin: 0px;
+    height: auto;
+}
+.re-write{
+    display: block;
+    text-align: end;
+    padding: 1em;
+}
+.re-write.h-m {
+text-align: start;
+}
+.re-write>a{
+display: inline-block;
+margin: 0 50px;
+color: black;
+text-decoration: none;
+}
+.re-write>a:hover{
+    color: grey;
+    text-decoration: overline dashed;
+    transition: color, 3s;
+}
+.square,.triangle,.rectangle{
+    float: left;
+    width: 33.3%;
+    font-size: 1em;
+}
+.parrallel,.trapezuim{
+width: 50%;
+}
+figure{
+    text-align: center;
+    position: relative;
+}
+figure>img{
+width: 250px;
+}
+figure>.new {
+    width: 400px;
+}
+figcaption{
+    display: inline-block;
+   position: absolute;
+   right: 50%;
+   top: 25%;
+   font-size: .8em;
+   font-weight: bolder;
+   bottom: 0px;
+}
+input[type=text] {
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid rebeccapurple;
+    width: 50px;
+    padding: 0 .3em;
+    font-size: .8em;
+}
+button.reset{
+    margin-top: .5rem;
+}
+p.final{
+    margin: 0 0 .5rem 0;
+}
+input[type=text]::placeholder,input[type=text]:focus {
+    color: black;
+    font-size: .8em;
+    font-weight: lighter;
+}
+.group {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+footer>p{
+    clear: both;
+    text-transform: capitalize;
+    text-shadow: 1px 1.5px 1.5px;
+    color: black;
+    padding: 1rem;
+    text-align: right;
+}
+button{
+    padding: .25em .25em;
+    margin: 0 0 0 .5rem;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+.reset-one,.reset-two{
+    position: absolute;
+    bottom: 20%;
+    left: 22%;
+    font-size: .7em;
+    font-weight: bold;
+}
+.reset-three{
+    position: absolute;
+    bottom: 25%;
+    left: 40%;
+    font-size: .7em;
+    font-weight: bold;
+}
+p{
+    font-size: 1em;
+}
+p.new-one{
+    margin: 0 0 .5em 0;
+}
+@media screen and (max-width:820px){
+.header>h1{
+    font-size: 5vw;
+}
+figure>img,figure>.new{
+    width: 100%;
+}
+.new{
+    margin-top: 4rem;
+}
+.square,.rectangle,.triangle{
+    float: none;
+    margin: 0 auto;
+    width: 45%;
+}
+button{
+    margin-top: .5em;
+}
+figcaption{
+    top: 50%;
+}
+.reset-one,.reset-two,figcaption{
+    font-size: .65em;
+}
+.reset-three.b-t {
+    font-size: .65em;
+    bottom: 15%;
+}
+}
