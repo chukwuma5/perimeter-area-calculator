@@ -17,7 +17,7 @@ This work is created for the purpose of practising and revising (HTML & CSS) wit
 ##An Example##
 ##Collective collections##
 
-<img src="./imag/square.gif">
+<img src="./img/square.gif">
 
 ##process##
 THIS FILE IS FOR THE PRACTISE OF JAVASCRIPT(MATHEMATICS)
@@ -37,14 +37,14 @@ THIS FILE IS FOR THE PRACTISE OF HTML AND CSS
 -IT'S ALSO RESPONSVE......
 
 ##Larger screen sizes##
-<img src="./imag/square2">
+<img src="./imag/square2.png">
 
-<img src="./img/square7">
+<img src="./img/square7.png">
 
 ##smaller screen sizes##
-<img src="./img/square5">
+<img src="./img/square5.png">
 
-<img src="./img/square6">
+<img src="./img/square6.png">
 
 ## Built with
 
