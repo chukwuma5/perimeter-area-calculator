@@ -111,7 +111,7 @@ button{
 .reset-one,.reset-two{
     position: absolute;
     bottom: 20%;
-    left: 22%;
+    left: 35%;
     font-size: .7em;
     font-weight: bold;
 }
@@ -155,5 +155,11 @@ figcaption{
 .reset-three.b-t {
     font-size: .65em;
     bottom: 15%;
+}
+}
+/*Added reset sizes for small screens*/
+@media screen and (max-width:320px) {
+#myFigureFour{
+    top: 55%;
 }
 }
